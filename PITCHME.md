@@ -63,7 +63,7 @@ Find us online...
 * Itelligently layers defaults, env vars, script params
 * Artifact publishing and credential pre-verification
 * Git branch detection and commit parsing
-* Shows need for language-specific extensions
+* Shows need for language-specific features
 
 ---
 ### CI Anywhere - Conan Package Tools 3/3
