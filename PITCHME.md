@@ -17,7 +17,7 @@ Find us online...
 * Generalize common CI features 
 * Decouple selected logic from CI implementation
 * Inspired by OpenAPI, OpenSAM, specs 
-* Do in Python
+* YAML Spec, impelemented in Python
 
 ---
 ### CI Anywhere - Prior Art
