@@ -68,14 +68,14 @@ Find us online...
 ---
 ### CI Anywhere - Conan Package Tools 3/3
 * More accessible extensibility model (code sharing)
-* Simply create and share python modules via pypi repo
+* Simply create and share python modules via pypi
 * Bincrafters package tools good example
 * Compare with creating a custom plugin for CI XYZ
 * Jenkins just added "Shared Libraries" feature: 
 	* Nice but proprietary
 
 ---
-### Travis example
+### Previous Travis example
 ```yml
 before_install: python ci/travis_pipeline.py -step_name before_install
 install: python ci/travis_pipeline.py -step_name install
@@ -83,7 +83,7 @@ script: python ci/travis_pipeline.py -step_name script
 after_success: python ci/travis_pipeline.py -step_name after_success
 ```
 ---
-### Appveyor example
+### Previous Appveyor example
 ```yml
 install: python ci/appveyor_pipeline.py -step_name install
 build_script: python ci/appveyor_pipeline.py -step_name build_script
@@ -93,13 +93,14 @@ deploy_script: python ci/appveyor_pipeline.py -step_name deploy_script
 ---
 ### Phase 1 - OSS
 * Start by borrowing lots of logic from CPT
-* Add more general commit parsing ("[skip travis]", etc)
-* Add more "publish" helpers (bintray, packagecloud, etc)
-
+* Add more general commit parsing:
+	* Like "[skip travis]", etc
+* Add more "publish" helpers 
+	* Bintray, packagecloud, etc
 
 ---
 ### Phase 2 - Enterprise
-* CPT does bypass some novel visibility features of CI 
+* CPT does bypass some novel features of CI 
 	* Test coverage  
-* Explore making use of some native features of each CI
-* Potentially create CI Anywhere plugins for Jenkins/Etc.
+* Explore leveraging features of each CI
+	* Will require plugins for Jenkins/Etc.
