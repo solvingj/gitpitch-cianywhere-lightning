@@ -1,7 +1,7 @@
 ## Project CI Anywhere
 *A universal CI abstraction layer*
 
-![Image](./assets/md/assets/BcCube128.png)
+![Image](./assets/BcCube128.png)
 
 ---
 ### Bincrafters OSS Team
