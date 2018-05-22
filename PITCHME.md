@@ -41,22 +41,22 @@ Find us online...
 
 ---
 ### CI Anywhere - Motivation 2/2
-* Choosing and configuring a new CI is extremely painful
-* Modern CI's are all good at some things, bad at others
-* Most CI services struggle to support new technology
-* Proprietary plugins needed for seemingly basic things
-* Adding/changing CI services becoming more common
+* Choosing and configuring a new CI is painful
+* Most CI's good at some things, bad at others
+* Most CI's struggle to support new technology
+* Proprietary plugins needed for basic things
+* Adding/changing CI services not uncommon
 
 ---
 ### CI Anywhere - Conan Package Tools 1/3
-* Great as a reference for a generalized implementation
+* Great as a reference implementation
 * Standardizes universal boilerplate tasks:
 * Docker:
 	* Optionally update container with pull 
 	* Optionally update code in container before run
 	* Mounting current working directory
-	* sudo both inside and outside docker commands
-	* Docker entry script lets user do anything pre-build
+	* sudo both inside and outside docker
+	* Docker entry script can do anything pre-build
 
 ---
 ### CI Anywhere - Conan Package Tools 2/3
