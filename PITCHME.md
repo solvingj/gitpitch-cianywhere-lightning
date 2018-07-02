@@ -30,10 +30,10 @@ Find us online...
 	
 ---
 ### CI Anywhere - Motivation 1/2
-* Any non-trivial scripting with YML is aweful
+* Any non-trivial scripting with YML is awful
 * OS-Specific scripting languages have issues
 * CI's have 90% similar features
-	* Proprietary Pmplementations
+	* Proprietary Implementations
 * Reproducing a CI job locally is invaluable
 	* Usually not possible
 * Lots of redundant hand-rolled boilerplate
